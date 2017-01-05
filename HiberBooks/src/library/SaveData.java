@@ -14,11 +14,15 @@ public class SaveData {
 		b.setId(11);
 		b.setTitle("The art of working");
 		
+		b.setAuthor("Bereket");
+		b.setId(12);
+		b.setTitle("The creation of humans");
+		
 		session.save(b);
 		session.persist(b);
 		t.commit();
 		session.close();
-		System.out.print("Success");
+		System.out.print("Success new");
 		
 		
 	}
